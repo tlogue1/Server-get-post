@@ -1,6 +1,6 @@
 const getCrafts = async () => {
     try {
-      return (await fetch("https://server-get-post-rmc0.onrender.com//api/crafts/")).json();
+      return (await fetch("https://server-get-post-rmc0.onrender.com/api/crafts/")).json();
     } catch (error) {
       console.log(error);
     }
