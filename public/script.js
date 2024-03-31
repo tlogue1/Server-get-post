@@ -1,6 +1,6 @@
 const getCrafts = async () => {
     try {
-      return (await fetch("https://Server-get-post.onrender.com/api/crafts/")).json();
+      return (await fetch("https://server-get-post-rmc0.onrender.com//api/crafts/")).json();
     } catch (error) {
       console.log(error);
     }
@@ -20,7 +20,7 @@ const getCrafts = async () => {
       section.append(a);
   
       const img = document.createElement("img");
-      img.src = "https://Server-get-post.onrender.com/" + craft.image;
+      img.src = "https://server-get-post-rmc0.onrender.com/" + craft.image;
       a.append(img);
   
       a.onclick = (e) => {
@@ -40,7 +40,7 @@ const getCrafts = async () => {
     craftInner.classList.add("craft-inner");
   
     const img = document.createElement("img");
-    img.src = "https://Server-get-post.onrender.com/" + craft.image;
+    img.src = "https://server-get-post-rmc0.onrender.com/" + craft.image;
     craftInner.append(img);
   
     const description = document.createElement("div");
